@@ -1,0 +1,100 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+
+body {
+    background: #0f1117;
+    color: #e6e6eb;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center reading area */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px 20px 60px;
+}
+
+/* Main title */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-underline-offset: below;
+    text-decoration: underline;
+    text-shadow: #da0bb8 2px 2px 4px;
+}
+
+/* Chapter title */
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-left: 4px solid #7aa2f7;
+    padding-left: 12px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+/* First paragraph drop cap */
+p:first-of-type::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    float: lef;
+    margin-right: 8px;
+    line-height: ;
+    color: #e4760fc5;
+}
+
+/* Horizontal rule */
+hr {
+    border: none;
+    height: 1px;
+    background: #2a2d3a;
+    margin: 50px 0;
+}
+
+/* Footer / author */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    color: #9a9aa1;
+}
+input[type="NEXT PAGE"] {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6d0d6d;
+    color: #f1e102;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+a {
+    border: 2px solid #c90aa9;
+    background-color: #da0bb8;
+    color: #000000; 
+    padding: 10px 20px;
+    text-decoration-style: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 30px auto;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    text-align: justify;
+    
+}

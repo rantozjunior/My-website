@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+
+.author-image{
+    width: 200px;
+    height: 300px;
+    border: 8px;
+    border-width: 20px solid white;
+    border-radius: 30px;
+    align-content: center;
+    padding: 20px;
+
+}
+body{
+    margin: 0;
+   background-color: rgb(23, 92, 240);
+   background-image:
+   url("MAIN-page3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover-image{
+    size: cover;
+    width: 100%;
+    height: auto;
+    height: 50px;
+    border-radius: 500%;
+    border: 2px solid white;
+    size: 0px;
+    cover-size: contain;
+
+} 
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-decoration: chocolate underline;
+    un
+}
+p1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-left: 4px solid #7aa2f7;
+    padding-left: 12px;
+    color: white;
+    text-align: center;
+   
+}
+div.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+p2 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom-color: rgb(105, 9, 93);
+    align-self: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

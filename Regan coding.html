@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rantoz website</title>
+    <link rel="stylesheet" href="FORM.css">
+</head>
+
+<body>
+    
+    <form action="web.html" method="post">
+<h1>Registration</h1>
+
+
+    <label for="name">Full Name:</label><br>
+    <input type="Name" placeholder="Enter your Full Name" maxlength="15" minlength="5" id="name" required><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" placeholder="example@gmail.com" id="email" required><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" placeholder="Enter your fucking password" maxlength="10" minlength="6" id="password" required><br>
+
+    <p>Gender</p>
+    <input type="radio" name="gender" id="male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" name="gender" id="female" required>
+    <label for="female">Female</label><br>
+
+    <p>Hobbies</p>
+    <input type="checkbox" id="reading" name="Hobbies">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" name="Hobbies" id="sports">
+    <label for="sports">Sports</label><br>
+
+    <input type="checkbox" name="Hobbies" id="music">
+    <label for="music">Music</label><br>
+
+    <label for="country">Select Country:</label><br>
+    <select name="country" id="country" required>
+
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="kwenu">Kwenu</option>
+        <option value="none">None of the above</option>
+
+    </select><br>
+
+    <label for="select">Select your county in kenya</label><br>
+    <select name="county" id="county" required>
+        <option value="nairobi">Nairobi</option>
+        <option value="nakuru">Nakuru</option>
+        <option value="kisumu">Kisumu dala</option>
+        <option value="none">None of the above</option>
+        
+    </select><br>
+    
+    <label for="opinion">Write your opinion here:</label><br>
+    <textarea name="opinion" id="opinion" placeholder="Type here" maxlength="40" minlength="5" rows="4" cols="40"></textarea><br>
+
+    <input type="submit">
+
+    <p style="background-color:red;">Powered by reagan NGEN 25</p>
+
+    </form>
+</body>
+</html>
